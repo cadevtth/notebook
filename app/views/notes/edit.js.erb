@@ -1,0 +1,3 @@
+$("#note_description").hide();
+
+$("#note_<%= @note.id %>").replaceWith("<%= j(render('form')) %>")
