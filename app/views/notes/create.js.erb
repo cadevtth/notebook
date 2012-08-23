@@ -1,3 +1,3 @@
-$("ul").prepend("<%= escape_javascript(render('note', :zebra => @note)) %>");
+$("ul").prepend("<%= escape_javascript(render('note', :note => @note)) %>");
 
 $("#note_description").val("");
