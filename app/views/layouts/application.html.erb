@@ -12,9 +12,9 @@
 
 		<header>
 			<div id="theme_links">
-					<%= link_to 'Legal Pad', '#', :id => 'legalpad_link' %>
+					<%= link_to 'Legal Pad', '#', :id => 'legalpad_link'%>
 					|
-					<%= link_to "Notepad", '#', :id => 'notepad_link' %>
+					<%= link_to "Notepad", notes_url(:style => 'notepad'), :id => 'notepad_link' %>
 			</div>
 			<h1>
 				<%= link_to image_tag('bulb.jpg', :size => '75x100'), '#' %>

@@ -7,4 +7,6 @@ Notebook::Application.routes.draw do
   get '/mockup' => 'pages#mockup'
   
   
+  match '/auth/:provider/callback', to: 'sessions#create'
+  
 end
